@@ -1,0 +1,313 @@
+.bg{
+	background: url(images/bg.gif);
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 100%;
+}
+body{
+	font-size: 12px;
+	font-family: "宋体";
+	color: #522a06;
+}
+.daohang li{
+	list-style-type: none;
+	display: inline-block;
+	width: 90px;
+}
+a{
+	color: #522a06;
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	}
+body  .logo{
+	height: 99px;
+	width: 318px;
+	display: inline-block;
+	position: absolute;
+	left: 250px;
+	top: 25px;
+}
+.daohangbg{
+	background: url(images/nav.jpg);
+	height: 40px;
+	font-weight: 1000px;
+	top:150px;
+
+}
+div.daohang {
+	text-align: center;
+	font-weight: bolder;
+	position: absolute;
+	left: 200px;
+}
+.daohang ul a{
+	color: white;
+}
+div ul .sp1 a{
+	color: #f9f603;
+}
+ul a:hover{
+	text-decoration: none;
+	color: #f9f603;
+}
+
+ul li input .sswb{
+	width: 140px;
+	height: 19px;
+	background-color: #f8f5ee;
+}
+ul li input .ss{
+	width: 90px;
+	height: 21px;
+	background-color: #000;
+	color: #fff;
+	border:1px solid #f8f5ee;
+}                                 /*首部*/
+.wen{
+	text-align: center;
+	margin: 0 auto;
+	width: 1000px;
+	position: relative;
+}
+div .tu{
+	height: 250px;
+	width: 330px;
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+}
+.tu .tu2{
+	position: absolute;
+	left: 10px;
+	top: 20px;
+}
+.tu .tu1{
+	position: absolute;
+	left: 0px;
+	top: 0px;	
+}
+.tu div{
+	position: absolute;
+	top: 224px;
+	left: 70px;
+}
+div .pxdt{
+	height: 250px;
+	width: 330px;
+	display: inline-block;
+	position: relative;
+}
+.pxdt .pxdt1{
+	position: absolute;
+	top: 0px;
+	left: 25px;
+}
+.pxdt .pxdt2{
+	position: absolute;
+	top: 0px;
+	left: 314px;
+}
+.pxdt ul li{
+	height: 30px;
+	list-style-type: none;
+	text-align: left;
+}
+.pxdt .pxdt3 a{
+	position: absolute;
+	left: 0px;
+}
+.pxdt ul{
+	top: 30px;
+	margin-top: 36px;
+}
+.pxdt .pxdt3 li span{
+	position: absolute;
+	left: 287px;
+}
+.pxdt .pxdt3 a:link{
+	color: #522a06;
+}
+.zngg{
+	background: url(images/board_bg.png);
+	background-repeat: no-repeat;
+	height: 250px;
+	width: 330px;
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	background-position: 20px 30px;
+}
+.zngg ul li{
+	height: 30px;
+	list-style-type: none;
+	text-align: left;
+}
+.zngg ul{
+	margin-top: 25px;
+}
+.zngg ul a{
+	position: absolute;
+	left: 26px;
+}
+.wen1{
+	width: 660px;
+	position: absolute;
+	left: 250px;
+	display: inline-block;
+}
+div .xszm{
+	height: 200px;
+	width: 330px;
+	display: inline-block;
+	position: relative;
+}
+.xszm .xszm1{
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	width: 320px;
+}
+.xszm .xszm2{
+	position: absolute;
+	top: 0px;
+	left: 314px;
+}
+.xszm ul li{
+	height: 30px;
+	list-style-type: none;
+	text-align: left;
+}
+.xszm .xszm3 a{
+	position: absolute;
+	left: 0px;
+}
+.xszm ul{
+	top: 30px;
+	margin-top: 60px;
+}
+.xszm .xszm3 li span{
+	position: absolute;
+	left: 287px;
+}
+div .stxw{
+	height: 200px;
+	width: 330px;
+	display: inline-block;
+	position: absolute;
+	left: 340px;
+}
+.stxw .stxw1{
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	width: 320px;
+}
+.stxw .stxw2{
+	position: absolute;
+	top: 0px;
+	left: 314px;
+}
+.stxw ul li{
+	height: 30px;
+	list-style-type: none;
+	text-align: left;
+}
+.stxw .stxw3 a{
+	position: absolute;
+	left: 0px;
+}
+.stxw ul{
+	top: 30px;
+	margin-top: 60px;
+}
+.stxw .stxw3 li span{
+	position: absolute;
+	left: 287px;
+}
+div .yzfc{
+	height: 220px;
+	width: 679px;
+	position: relative;
+	left: 0px;
+	background: url(images/fengcai_bg2.png);
+	background-position: 10px 60px;
+	background-size: 660px 160px;
+	background-repeat: no-repeat;
+}
+.yzfc .yzfc2{
+	position: absolute;
+	top: 15px;
+	left: 640px;
+}
+ div .yzfc ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+ div .yzfc ul{
+ 	position: absolute;
+	padding-left: 25px;
+ }
+.wen2{
+	background: url(images/show_bg.png);
+	background-repeat: no-repeat;
+	width: 330px;
+	height: 440px;
+	position: relative;
+	left: 940px;
+	background-position: 0px 50px;
+}
+.mjzt1{
+	position: absolute;
+	left: 70px;
+	top: 15px;
+}
+.mjzt2{
+	position: absolute;
+	left: 30px;
+	top: 70px;
+}
+.wen2 p{
+	width: 220px;
+	position: absolute;
+	top: 270px;
+	left: 30px;
+	line-height: 1.5em;
+}
+.wen2 span{
+	font-weight: bolder;
+	color: red;
+}
+.mjzt3{
+	position: absolute;
+	right: 80px;
+	bottom: 40px;
+}
+.dibu{                    /*底部*/
+	background: url(images/foot.gif);
+	background-repeat: no-repeat;
+	width: 1500px;
+	height: 150px;
+}
+#dibu1{
+	text-align: center;
+}
+#dibu1 li{
+	margin-top: 30px;
+	display: inline-block;
+	list-style-type: none;
+	font-weight: bolder;
+}
+.dibu div img{
+	position: absolute;
+	left: 500px;
+}
+.dibu .dibu2{
+	text-align: center;
+	margin-top: 20px;
+
+}
