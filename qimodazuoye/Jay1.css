@@ -1,0 +1,123 @@
+.neirong {
+	width: 100%;
+	background-color: #f5f5f5;
+}
+.neirong1 {
+	width: 920px;
+	margin: 0 auto;
+}
+.neirong .left{
+	background-color: #fff;
+	width: 650px;
+	border: 1px solid #d3d3d3;
+	padding-left: 10px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.zhuanji{
+	width: 320px;
+	display: inline-block;
+	vertical-align: top;
+}
+.neirong .left1 img{
+	width: 160px;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 10px;
+}
+.neirong a:hover{
+	opacity: 0.3; 
+}
+.neirong .left .left1 h5{
+	margin: 0 30px;
+	width: 60px;
+}
+.neirong .left1 span{
+	width: 150px;
+	vertical-align: top;
+	display: inline-block;
+	padding-left: 10px;
+}
+.neirong .more{
+	float: right;
+	font-size: 12px;
+	color: #696969;	
+	padding-right: 10px;
+}
+.neirong h3{
+	border-bottom: 1px solid 	#0095b6;
+	margin-left: 10px;
+}
+.neirong .right{
+
+}
+.neirong .neirong1 a:hover{
+	color: #add8e6;
+}
+.right{
+	display: inline-block;
+	width: 234px;
+	vertical-align: top;
+	background-color: #fff;
+	margin-left: 10px;
+	height: 1318px;
+}
+.right li{
+	list-style-type:disc;
+	line-height: 2em;
+}
+.right li span{
+	font-size: 12px;
+	float: right;
+	margin-right: 10px;
+}
+.right .right1{
+	margin-top: 40px;
+
+}
+.neirong  img{
+	height: 100px;
+}
+.left .left2 h5{
+	margin: 0px 10px;
+	width: 70px;
+}
+.left .left2 span{
+	width: 400px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 10px;
+	float: right;
+	margin-right: 80px;
+}
+.left .left2 .tiuhou{
+	height: 120px;
+	margin-bottom:10px;
+}
+.left .left3 .tu{
+	display: inline-block;
+	width: 140px;
+	margin-left: 13px;
+	text-align: center;
+}
+.left .tu h5{
+	margin: 0px 40px;
+	width: 70px;
+}
+ .left .left4{
+ }
+ .left .leixing{
+ 	display: inline-block;
+ 	width: 210px;
+ }
+ .left .leixing ul{
+ 	padding: 0px 25px;
+ }
+ .left .leixing li{
+ 	list-style-type: disc;
+
+ }
+
+.left .leixing h4{
+	margin-left: 10px;
+}

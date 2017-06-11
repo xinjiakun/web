@@ -1,0 +1,183 @@
+body{
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+li{
+	list-style-type: none;
+}
+.shou{
+	width: 1520px;
+	height: 60px;
+	text-align: center;
+	height: 385px;
+	border: 1px solid #d3d3d3;
+}
+.shou1{
+	width: 1536px;
+	background-color:#0095b6;
+	position: fixed;
+}
+.shou1 .shou4{
+	margin: 0 auto;
+	width: 1000px;	
+}
+.shou ul{
+	margin:0;
+	width: 1000px;	
+	display: inline-block;
+	height: 60px;
+
+}
+.shou li{
+	display: inline-block;
+	margin: 0 auto;
+	width: 100px;
+	height: 60px;
+	float: left;
+	text-align: center;
+}
+.shou a{
+	color: #fff;
+	font-size: 17px;
+	display: block;
+	line-height:60px;
+	text-align: center;
+}
+.shou a:hover{
+	background-color: #1dacd6;
+}
+.shou ul img{
+	width: 80px;
+	height: 60px;
+	display: inline-block;
+}
+.shou .shou1  input{
+	margin-top: 20px;
+	border: #fff;
+}
+.shou .shou2{
+	width: 650px;
+	display: inline-block;
+	margin-top: 10px;
+}
+.shou .shou3{
+	display: inline-block;
+	width: 230px;
+	background-color: #f5f5f5;
+	vertical-align: top;
+	height: 312px;
+	text-align: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.shou .shou3 h1{
+	padding: 0 10px;
+}
+.shou .shou3 h2{
+	padding: 0 10px;
+	color: #666;
+}
+.shou .shou3 p{
+	padding: 0 10px;
+}
+.shou5{
+	margin-top: 60px;
+}
+							/*首部*/
+.dibu{
+	background-color: #f5f5f5;
+	width: 100%;
+	height: 120px;
+	border: 1px solid #d3d3d3;
+}
+.dibu ul{
+	width: 360px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.dibu li{
+	display: inline-block;
+	text-align: center;
+}
+.dibu a{
+	color: #999;
+}
+.dibu p{
+	color:#666;
+	text-align: center;
+}
+.chengjiu {
+	font-size: 22px;
+	position: fixed;
+	color: #d3d3d3;
+	
+}
+.chengjiu a{
+	color: #d3d3d3;
+
+}
+.chengjiu a:hover{
+	color: #add8e6;	
+}
+.chengjiu2{
+	left:90px;
+	top: 75px;
+}
+.chengjiu2 a:hover{
+	font-size: 23px;
+}
+.chengjiu1{
+	right:30px;
+	top: 100px;
+	font-size: 25px;
+}
+.chengjiu1 a:hover{
+	font-size: 26px;
+}
+.chengjiu3{
+	left:20px;
+	bottom:140px;
+	font-size: 28px;
+}
+.chengjiu3 a:hover{
+	font-size: 29px;
+}
+.chengjiu4{
+	left:10px;
+	top: 200px;
+	font-size: 40px;
+}
+.chengjiu4 a:hover{
+	font-size: 42px;
+}
+.chengjiu5{
+	right:0px;
+	top: 250px;
+	font-size: 55px;
+}
+.chengjiu5 a:hover{
+	font-size: 58px;
+}
+.chengjiu6{
+	left:10px;
+	top: 360px;
+	font-size: 60px;
+}
+.chengjiu6 a:hover{
+	font-size: 63px;
+}
+.chengjiu7{
+	right:0px;
+	top: 450px;
+	font-size: 55px;
+}
+.chengjiu7 a:hover{
+	font-size: 58px;
+}
