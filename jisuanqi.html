@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.ss{
+			height: 33px;
+			width: 33px;
+			margin-left: 3px;
+		}
+		#a1{text-align: right;}
+	</style>
+	<script src="jisuanqi.js"></script>
+	<script type="text/javascript">
+	var num=0,yes=0,sese=0,result=0,numshow="0";
+	function show(num){
+		var str=String(document.getElementById("a1").value);
+		str=(str!="0") ? ((yes==0) ? str : "") : "";
+		str=str + String(num);
+		document.getElementById("a1").value=str;
+		yes=0;
+	}
+	function clears(){
+		num=0;
+		result=0;
+		numshow="0";
+		document.getElementById("a1").value="";
+
+	}
+	function plus(){
+		num=Number(document.getElementById("a1").value);
+		yes=1;
+		sese=1;
+	}
+	function minus(){
+		num=Number(document.getElementById("a1").value);
+		yes=1;
+		sese=2;
+	}
+	function times(){
+		num=Number(document.getElementById("a1").value);
+		yes=1;
+		sese=3;
+	}
+	function divide(){
+		num=Number(document.getElementById("a1").value);
+		yes=1;
+		sese=4;
+	}
+	function equal(){
+		add();
+		num=0;
+		result=0;
+		numshow="0";
+		sese=1;
+	}
+	function add(){
+	numshow=Number(document.getElementById("a1").value);
+	switch(sese){ 
+		case 1:result=num+numshow;break; 
+		case 2:result=num-numshow;break; 
+		case 3:result=num*numshow;break;
+		case 4:result=num/numshow;break;
+		case 5:result=num%numshow;break;
+	}
+	numshow=String(result);
+	document.getElementById("a1").value=numshow;
+	num=result;
+	}
+	</script>
+</head>
+<body>
+	<table border="1" cellpadding="4" cellspacing="2">
+		<tr>
+			<td colspan="3"><input type="text" name="text" id="a1" value=""></td>
+			<td><input type="button" name="clear" value="c" class="ss" onclick="clears()"></td>
+		</tr>
+		<tr>
+			<td><input type="button" name="1" value="1" class="ss" onclick="show(value)"></td>
+			<td><input type="button" name="2" value="2" class="ss" onclick="show(value)"></td>
+			<td><input type="button" name="3" value="3" class="ss" onclick="show(value)"></td>
+			<td><input type="button" name="+" value="+" class="ss" onclick="plus(value)"></td>
+		</tr>
+		<tr>
+			<td><input type="button" name="4" value="4" class="ss" onclick="show(value)"></td>
+			<td><input type="button" name="5" value="5" class="ss" onclick="show(value)"></td>
+			<td><input type="button" name="6" value="6" class="ss" onclick="show(value)"></td>
+			<td><input type="button" name="-" value="-" class="ss" onclick="minus(value)"></td>
+		</tr><tr>
+			<td><input type="button" name="7" value="7" class="ss" onclick="show(value)"></td>
+			<td><input type="button" name="8" value="8" class="ss" onclick="show(value)"></td>
+			<td><input type="button" name="9" value="9" class="ss" onclick="show(value)"></td>
+			<td><input type="button" name="*" value="*" class="ss" onclick="times(value)"></td>
+		</tr><tr>
+			<td><input type="button" name="0" value="0" class="ss" onclick="show(value)"></td>
+			<td><input type="button" name="." value="." class="ss" onclick="show(value)"></td>
+			<td><input type="button" name="=" value="=" class="ss" onclick="equal(value)"></td>
+			<td><input type="button" name="/" value="/" class="ss" onclick="divide(value)"></td>
+		</tr>
+	</table>
+</body>
+</html>
