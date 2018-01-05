@@ -1,0 +1,360 @@
+
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <style type="text/css">
+    * {
+    font-size:18px;
+    margin:0px;
+    padding:0px;
+    }
+    #nav{
+    margin-top: 20px;
+    margin-left: 50px;
+    list-style:none;
+    line-height:27px;
+
+    }
+    #nav a:link,#nav a:visited{
+    display:block;
+    width:160px;
+    color: red;
+    text-align:center;
+    text-decoration:none;
+    line-height: 40px;
+    background:black;
+    height: 40px;
+    font-weight: bold;
+    }
+    #nav a:hover{
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    background:#999;
+    }
+    #nav ul{list-style: none;}
+    #nav li{
+    float:left;
+    width: 160px;
+    }
+    #nav li ul li a:hover{
+    background:red;
+    }
+
+    #nav li ul{
+    display:none;
+    }
+    #nav li.subMenuShow ul{
+    display:block;
+    }
+    #a1{text-align: center;width: 100%;}
+
+    #a1 img{margin:0 auto;}
+    #picScroll{
+      white-space: nowrap;
+      overflow:hidden;
+      width:100%;
+
+    }
+    body{background-image: url(61.jpg);background-repeat: no-repeat;background-position: center center; }
+    .x1{text-align: center;font-size: 40;font-weight: bold;}
+    div#imgArear {
+      width: 400px;
+      height: 400px;
+      border: 0px solid;
+    }
+    .c1{text-align: center;}
+    #c2{position:absolute;left:500px;top: 600px;}
+
+
+    #edc{
+      white-space: nowrap;
+      overflow:hidden;
+      width:700px;
+      position: absolute;left: 860px;top: 260px;
+    }
+    p#submit {
+      clear: left;
+    }
+    #zd1{
+      position: absolute;left: 440px;top: 350px;border-width: 2px;border-style: solid;
+    }
+
+  </style>
+  <script type="text/javascript">
+  var a1,b11,b21,time1,hh;
+      function changeToLeft1(){
+        if(a1.scrollLeft>b11.offsetWidth){
+          a1.scrollLeft=0;
+        }
+        else{
+          a1.scrollLeft++;
+        }
+      }
+
+
+window.onload = function(){
+      var liNodes = document.getElementsByTagName("li");
+      for (var i=0; i<liNodes.length; i++)
+      {
+        liNodes[i].onmouseover = function(){
+          this.className = "subMenuShow";
+        }
+        liNodes[i].onmouseout = function(){
+          this.className = "";
+        }
+      }
+    
+
+        var a,b1,b2,time;
+      function changeToLeft(){
+        if(a.scrollLeft>b1.offsetWidth){
+          a.scrollLeft=0;
+        }
+        else{
+          a.scrollLeft++;
+        }
+      }
+      
+        a=document.getElementById("picScroll");
+        b1=document.getElementById("picScroll1");
+        b2=document.getElementById("picScroll2");
+        b2.innerHTML=b1.innerHTML;
+        time=window.setInterval(changeToLeft,10);
+        a.onmouseover=function(){
+          window.clearInterval(time);
+        }
+        a.onmouseout=function(){
+          time=window.setInterval(changeToLeft,10);
+        }
+
+
+
+
+        a1=document.getElementById("edc");
+        b11=document.getElementById("edc1");
+        b21=document.getElementById("edc2");
+        b21.innerHTML=b11.innerHTML;
+        time1=window.setInterval(changeToLeft1,10);
+        a1.onmouseover=function(){
+          window.clearInterval(time1);
+        }
+        a1.onmouseout=function(){
+          time1=window.setInterval(changeToLeft1,10);
+        }
+        var username = document.getElementById("username"); 
+        username.onblur = checkUsername;
+    
+
+    
+    }
+
+      function checkUsername() { 
+      var username = document.getElementById("username");
+
+      if (username.value.length == 0)
+      {   
+        username.parentNode.innerHTML = username.parentNode.innerHTML+"<span style='color:red'>用户名必须输入</span>";
+      }
+
+      }
+      function huan() {
+        var div = document.getElementById('imgArear');
+        div.innerHTML = "<img src='11.jpg' width='400px' height='300px'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Air Jordan 1 OG High fragment 闪电";
+    }
+    function huan2() {
+        var div = document.getElementById('imgArear');
+        div.innerHTML = "<img src='12.jpg' width='400px' height='300px'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Air Jordan 1 OG High Chicago 芝加哥";
+    }
+    function huan3() {
+        var div = document.getElementById('imgArear');
+        div.innerHTML = "<img src='17.jpg' width='400px' height='300px'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Air Jordan 1 OG High Top3 鸳鸯";
+    }
+    function huan4() {
+        var div = document.getElementById('imgArear');
+        div.innerHTML = "<img src='21.jpg' width='400px' height='300px'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Air Jordan 1 OG High Bred 扣碎篮板";
+    }
+    function huan5() {
+        var div = document.getElementById('imgArear');
+        div.innerHTML = "<img src='11.jpg' width='400px' height='300px'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Air Jordan 1 OG High fragment 藤原浩";
+    }
+    function jg(){
+    if(hh!=1)
+     {alert('请先完成注册！')}
+    else
+      {alert('添加购物车成功！')}
+
+}
+    function you(){
+
+      hh=1;
+    }
+
+
+
+
+
+
+  </script>
+</head>
+<body>
+  <ul id="nav">
+    <li><a  href="#">男子</a>
+      <ul >
+        <li><a href="#">鞋类</a></li>
+        <li><a href="#">上身</a></li>
+        <li><a href="#">下装</a></li>
+      </ul>
+    </li>
+    <li><a href="#">女子</a>
+      <ul>
+        <li><a href="#">鞋类</a></li>
+        <li><a href="#">上身</a></li>
+        <li><a href="#">下装</a></li>
+      </ul>
+    </li>
+    <li><a href="#">男孩</a>
+      <ul>
+        <li><a href="#">上身童装</a></li>
+        <li><a href="#">下身童装</a></li>
+        <li><a href="#">男童鞋</a></li>
+      </ul>
+    </li>
+    <li><a href="#">女孩</a>
+      <ul>
+        <li><a href="#">上身童装</a></li>
+        <li><a href="#">下身童装</a></li>
+        <li><a href="#">女童鞋</a></li>
+      </ul>
+    </li>
+    <li><a href="#">AIR JORDAN</a>
+      <ul>
+        <li><a href="#">AIR JORDAN系列</a></li>
+        <li><a href="#">预售名单</a></li>
+        <li><a href="#">历史遗迹</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Nike</a>
+      <ul>
+        <li><a href="#">Nike系列</a></li>
+        <li><a href="#">发展历史</a></li>
+        <li><a href="#">Nike周边</a></li>
+      </ul>
+    </li>
+    <li><a href="#">联名</a>
+      <ul>
+        <li><a href="#">&CLOT</a></li>
+        <li><a href="#">&Supreme</a></li>
+        <li><a href="#">&LV</a></li>
+      </ul>
+    </li>
+    <li><a href="#">关于我们</a>
+      <ul>
+        <li><a href="#">Nike文化</a></li>
+        <li><a href="#">意见反馈</a></li>
+        <li><a href="#">加入我们</a></li>
+      </ul>
+    </li>
+  </ul>
+
+
+<div id="picScroll">
+    <span id="picScroll1">
+      <img src="1.png" />
+      <img src="1.png" />
+      <img src="1.png" />
+      <img src="1.png" />
+      <img src="1.png" />
+      <img src="1.png" />
+      <img src="1.png" />
+      <img src="1.png" />
+      <img src="1.png" />
+      <img src="1.png" />
+      <img src="1.png" />
+      <img src="1.png" />
+      <img src="1.png" />
+      <img src="1.png" />
+      <img src="1.png" />
+      <img src="1.png" />
+      <img src="1.png" />
+      <img src="1.png" />
+      <img src="1.png" />
+      <img src="1.png" />
+    </span>
+    <span id="picScroll2"></span>
+    </div> 
+    <div class="x1">
+    Sneaker专区
+    </div>
+    <form>
+
+    <input type="button" value="白蓝配色" onclick="huan();" />
+    <input type="button" value="白红配色" onclick="huan2();" />
+    <input type="button" value="鸳鸯配色" onclick="huan3();" />
+    <input type="button" value="橙白配色" onclick="huan4();" />
+    <input type="button" value="蓝黑配色" onclick="huan5();" />
+  </form>
+  <div id="imgArear">
+  <img src="3.jpg" width="400px" height="300px">
+  <div class="c1">Air Jordan 1 OG High "Black Toe"</div>
+  </div>
+  <div id="cc1">
+  <a href="#"><img src="31.png" id="c2" onclick="jg()"></a></div>
+  
+ <div id="edc">
+    <span id="edc1">
+      <img src="5.jpg" width="250px" height="250px" />
+      <img src="6.jpg" width="250px" height="250px" />
+      <img src="7.jpg" width="250px" height="250px" />
+      <img src="10.jpg" width="250px" height="250px" />
+      <img src="13.jpg" width="250px" height="250px" />
+      <img src="14.jpg" width="250px" height="250px" />
+      <img src="18.jpg" width="250px" height="250px" />
+      <img src="19.jpg" width="250px" height="250px" />
+      <img src="20.jpg" width="250px" height="250px" />
+
+
+
+    </span>
+    <span id="edc2"></span>
+  </div> 
+
+
+
+
+<form>
+    <table id="zd1">
+      <tr>
+        <td>用户名：</td>
+        <td><input type="text" id="username" name="username" /><span id="errorTip"></span></td>
+      </tr>
+
+      <tr>
+        <td>密码：</td>
+        <td><input type="password" id="passwd"</td>
+      </tr>
+      <tr>
+        <td>确认密码：</td>
+        <td><input type="password" id="rePasswd"/></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><input type="reset" id="reset" value="注册" width="40px" height="40px" onclick="you()" />
+        <input id="submit" type="submit" value="取消" /></td>
+      </tr>
+    </table>
+  </form>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
